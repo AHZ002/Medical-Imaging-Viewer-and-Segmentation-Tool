@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+imageLoader_env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Medical imaging data (DO NOT PUSH)
+*.dcm
+*.nii
+*.nii.gz
+*.jpg
+*.jpeg
+*.png
+
+# Datasets & zips
+*.zip
+2_skull_ct/
+dicom_viewer_0002/
+
+# PDFs / docs
+*.pdf
+
+# Temp / experiments
+temp.py
+
+# OS
+Thumbs.db
+.DS_Store
